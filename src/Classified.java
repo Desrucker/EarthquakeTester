@@ -26,7 +26,7 @@ public class Classified extends Earthquake {
      */
     @Override
     public String toString() {
-        return "[Classified] [eID='" + getId() + "]" +
+        return "[Classified] [eID:" + getId() + "]" +
                 "[dateTimeZ:" + getDateTimeZ() + "]" +
                 "[longitude:" + getLongitude() + "]" +
                 "[latitude:" + getLatitude() + "]" +

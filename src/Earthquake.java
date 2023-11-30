@@ -38,12 +38,12 @@ public class Earthquake implements Comparable<Earthquake> {
      * @param other The Earthquake object to compare to.
      * @return -1 if this earthquake has a greater magnitude, 1 if other has a greater magnitude, or 0 if they have the same magnitude.
      */
-    @Override
+
     public int compareTo(Earthquake other) {
         if (this.magnitude > other.magnitude) {
-            return -1;
-        } else if (this.magnitude < other.magnitude) {
             return 1;
+        } else if (this.magnitude < other.magnitude) {
+            return -1;
         } else {
             return 0;
         }
@@ -56,7 +56,7 @@ public class Earthquake implements Comparable<Earthquake> {
      */
     @Override
     public String toString() {
-        return "|Line " + getLineCounter() + "| [eID='" + getId() + "]" +
+        return "|Line " + getLineCounter() + "| [eID:" + getId() + "]" +
                 "[dateTimeZ:" + getDateTimeZ() + "]" +
                 "[longitude:" + getLongitude() + "]" +
                 "[latitude:" + getLatitude() + "]" +

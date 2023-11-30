@@ -1,12 +1,12 @@
-|Line 1| 34:56.529Z,63.8531,-148.8544,1.9,ak15661951,"5km E of Healy, Alaska" Invalid date-time format
-|Line 3| 2017-04-02T23:54:33.190Z,8.9868,-82.4888,5.3,nc72783801,"17km NNE of Cerro Punta, Panama" Invalid ID
-|Line 7| 2017-04-03T00:20:09.064Z,180.0,-118.8441,0.8,nn00584007,"27km SW of Hawthorne, Nevada" Invalid latitude
-|Line 8| 2017-04-03T00:36:45.930Z,-180.0,179.3093,4.6,us10008e00,South of the Fiji Islands Invalid latitude
-|Line 9| 2017-04-03T00:38:50.400Z,43.7625,200.0,0.53,mb80204074,"19km ENE of Driggs, Idaho" Invalid longitude
-|Line 10| 2017-04-03T00:40:09.350Z,37.494,-200.0,0.46,nc72783806,"24km SE of Mammoth Lakes, California" Invalid longitude
-|Line 11| 2017-04-03T00:44:14.170Z,33.7728333,-118.0328333,20.42,ci37847376,"3km WNW of Westminster, CA" Invalid magnitude
-|Line 12| 2017-04-03T00:57:03.080Z,37.6233333,-118.8815,-5.0,nc72783816,"8km ESE of Mammoth Lakes, California" Invalid magnitude
-|Line 13| 2017-04-03T00:57:46.276Z,37.2758,-117.2692,0.9,nn00583967 Invalid data format
-|Line 14| 2017-04-03T01:03:12.682Z,41.8728,-119.6307,Stringlol,nn00583968,"68km ESE of Lakeview, Oregon" Number format exception
-|Line 15| 2017-04-03T01:09:02.320Z,Stringlol,-122.8290024,1.55,nc72783821,"7km WNW of The Geysers, California" Number format exception
-|Line 16| 2017-04-03T01:15:44.010Z,19.4834995,Stringlol,1.84,hv61674761,"23km E of Honaunau-Napoopoo, Hawaii" Number format exception
+|Line 1| Invalid date-time format |: 34:56.529Z,63.8531,-148.8544,1.9,ak15661951,"5km E of Healy, Alaska"
+|Line 3| Invalid ID |: 2017-04-02T23:54:33.190Z,8.9868,-82.4888,5.3,nc72783801,"17km NNE of Cerro Punta, Panama"
+|Line 7| Invalid latitude |: 2017-04-03T00:20:09.064Z,180.0,-118.8441,0.8,nn00584007,"27km SW of Hawthorne, Nevada"
+|Line 8| Invalid latitude |: 2017-04-03T00:36:45.930Z,-180.0,179.3093,4.6,us10008e00,South of the Fiji Islands
+|Line 9| Invalid longitude |: 2017-04-03T00:38:50.400Z,43.7625,200.0,0.53,mb80204074,"19km ENE of Driggs, Idaho"
+|Line 10| Invalid longitude |: 2017-04-03T00:40:09.350Z,37.494,-200.0,0.46,nc72783806,"24km SE of Mammoth Lakes, California"
+|Line 11| Invalid magnitude |: 2017-04-03T00:44:14.170Z,33.7728333,-118.0328333,20.42,ci37847376,"3km WNW of Westminster, CA"
+|Line 12| Invalid magnitude |: 2017-04-03T00:57:03.080Z,37.6233333,-118.8815,-5.0,nc72783816,"8km ESE of Mammoth Lakes, California"
+|Line 13| Invalid data format |: 2017-04-03T00:57:46.276Z,37.2758,-117.2692,0.9,nn00583967
+|Line 14| Number format exception |: 2017-04-03T01:03:12.682Z,41.8728,-119.6307,Stringlol,nn00583968,"68km ESE of Lakeview, Oregon"
+|Line 15| Number format exception |: 2017-04-03T01:09:02.320Z,Stringlol,-122.8290024,1.55,nc72783821,"7km WNW of The Geysers, California"
+|Line 16| Number format exception |: 2017-04-03T01:15:44.010Z,19.4834995,Stringlol,1.84,hv61674761,"23km E of Honaunau-Napoopoo, Hawaii"

@@ -69,7 +69,7 @@ public class EarthquakeTester {
                     }
                 } catch (IllegalArgumentException e) {
                     // Handle invalid data entries by adding them to the invalidData list
-                    invalidData.add("|Line " + lineCounter + "| " + line + " " + e.getMessage());
+                    invalidData.add("|Line " + lineCounter + "| " + e.getMessage() + " |: "+ line);
                 }
             }
 
