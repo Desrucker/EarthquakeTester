@@ -1,7 +1,6 @@
 import java.io.*;
 import java.text.*;
 import java.util.*;
-import java.util.List;
 
 /**
  * EarthquakeTester is a program that processes earthquake data from an input file, validates the data,
