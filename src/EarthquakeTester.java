@@ -1,6 +1,8 @@
 import java.io.*;
 import java.text.*;
 import java.util.*;
+import java.util.List;
+
 /**
  * EarthquakeTester is a program that processes earthquake data from an input file, validates the data,
  * classifies earthquakes into categories, sorts them by magnitude, and outputs the results to two separate files.
@@ -79,7 +81,7 @@ public class EarthquakeTester {
             Collections.sort(earthquakes);
 
             // Create a PrintWriter for the sorted earthquake data output file
-            PrintWriter sortedWriter = new PrintWriter(new File(sortedOutputFile));
+            PrintWriter sortedWriter = new PrintWriter(sortedOutputFile);
 
             // Write sorted earthquake data to the output file
             for (Earthquake eq : earthquakes) {
@@ -90,7 +92,7 @@ public class EarthquakeTester {
             sortedWriter.close();
 
             // Create a PrintWriter for the invalid data output file
-            PrintWriter invalidWriter = new PrintWriter(new File(invalidOutputFile));
+            PrintWriter invalidWriter = new PrintWriter(invalidOutputFile);
 
             // Write invalid data entries to the output file
             for (String invalidLine : invalidData) {
@@ -134,7 +136,7 @@ public class EarthquakeTester {
             double latitude = Double.parseDouble(parts[1]);
             double longitude = Double.parseDouble(parts[2]);
             double magnitude = Double.parseDouble(parts[3]);
-            if (magnitude < 0.0) {
+            if (magnitude < -1.0 || magnitude > 10.0) {
                 throw new IllegalArgumentException("Invalid magnitude");
             }
 
@@ -159,7 +161,7 @@ public class EarthquakeTester {
                 }
             }
 
-            // Throw exceptions for invalid data
+            // Throw exceptions for invalid latitude/longitude/ID
             if (!latitudeCheck) {
                 throw new IllegalArgumentException("Invalid latitude");
             } else if (!longitudeCheck) {

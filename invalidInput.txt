@@ -4,6 +4,7 @@
 |Line 8| 2017-04-03T00:36:45.930Z,-180.0,179.3093,4.6,us10008e00,South of the Fiji Islands Invalid latitude
 |Line 9| 2017-04-03T00:38:50.400Z,43.7625,200.0,0.53,mb80204074,"19km ENE of Driggs, Idaho" Invalid longitude
 |Line 10| 2017-04-03T00:40:09.350Z,37.494,-200.0,0.46,nc72783806,"24km SE of Mammoth Lakes, California" Invalid longitude
+|Line 11| 2017-04-03T00:44:14.170Z,33.7728333,-118.0328333,20.42,ci37847376,"3km WNW of Westminster, CA" Invalid magnitude
 |Line 12| 2017-04-03T00:57:03.080Z,37.6233333,-118.8815,-5.0,nc72783816,"8km ESE of Mammoth Lakes, California" Invalid magnitude
 |Line 13| 2017-04-03T00:57:46.276Z,37.2758,-117.2692,0.9,nn00583967 Invalid data format
 |Line 14| 2017-04-03T01:03:12.682Z,41.8728,-119.6307,Stringlol,nn00583968,"68km ESE of Lakeview, Oregon" Number format exception

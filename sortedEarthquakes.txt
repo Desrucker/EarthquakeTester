@@ -1,4 +1,3 @@
-[Classified] [eID='ci37847376][dateTimeZ:2017-04-03T00:44:14.170Z][longitude:-118.0328333][latitude:33.7728333][magnitude:20.42][place:"3km WNW of Westminster CA"][magnitudeClass:Major]
 [Classified] [eID='us10008dzx][dateTimeZ:2017-04-02T23:58:58.270Z][longitude:-179.5831][latitude:-22.2015][magnitude:4.7][place:"194km SSW of Ndoi Island Fiji"][magnitudeClass:Minor]
 |Line 6| [eID='ci37847368][dateTimeZ:2017-04-03T00:13:20.120Z][longitude:-116.9201667][latitude:34.008][magnitude:1.51][place:"10km NNW of Banning CA"]
 |Line 5| [eID='ci37847360][dateTimeZ:2017-04-03T00:04:40.740Z][longitude:-116.783][latitude:33.4915][magnitude:0.77][place:"9km NE of Aguanga CA"]
